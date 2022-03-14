@@ -1,6 +1,5 @@
 import React from 'react'
 import './Navbar.css'
-import Logo from '../Assets/logo-removebg-preview.png'
 import {Link} from "react-router-dom"
 
 

@@ -1,0 +1,43 @@
+.homepage{
+    margin-top:70px
+}
+.profile{
+    padding:40px;
+}
+.profile h1{
+   color: rgb(255, 178, 42);
+    font-size: 2.5rem;
+}
+.profile-pix{
+    padding-left: 25px;
+}
+.certification{
+    padding-left:50px;
+    line-height:2.8em;
+    font-weight:bold;
+    font-size:24px
+}
+.about-me h2{
+    font-family:Helvetica
+}
+.about-me{
+    margin:10px;
+    padding:10%;
+}
+.about-me h1{
+    text-align:center;
+    margin-bottom:30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(114, 48, 23)
+
+}
+.profession{
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.ada{
+    /* height:95%; */
+    width:93%;
+    border-radius:7px;
+}

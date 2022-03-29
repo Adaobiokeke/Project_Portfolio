@@ -1,5 +1,5 @@
 .homepage-body{
-    background-color: rgb(42, 41, 46);
+    background-color: rgba(8, 13, 41, 0.979);
     /* border:3px solid rgb(121, 55, 55); */
     height:100vh;
     width:100vw;
@@ -10,7 +10,7 @@
     background-image: url("../Assets/landing10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border:3px solid ;
+    /* border:3px solid ; */
     height:90vh;
     width:100vw;
     padding-top:17%;

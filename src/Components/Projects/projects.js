@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import { Divdatas } from "../Projects/projectDatas";
 import Modal from "react-modal";
 import Tooltip from "@mui/material/Tooltip";
-
+import Navb from '../Navb/navb'
 const Projects = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false),
     [content, setContent] = useState({});
@@ -54,6 +54,9 @@ const Projects = () => {
           </button>
         </div>
       </Modal>
+      <div>
+          <Navb/>
+     
       <Grid container spacing={1}>
         {Divdatas &&
           Divdatas.map((box, index) => (
@@ -73,6 +76,7 @@ const Projects = () => {
                   Read me...
                 </button>
               </div>
+
               </div>
 
 
@@ -98,6 +102,7 @@ const Projects = () => {
             </Grid>
           ))}
       </Grid>
+      </div>
     </div>
   );
 };

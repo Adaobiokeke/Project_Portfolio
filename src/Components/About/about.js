@@ -2,39 +2,40 @@ import React from 'react'
 import Grid from "@material-ui/core/Grid";
 import Ada from "../Assets/ADA.jpeg";
 import './about.css'
+import Nava from '../Nava/nava'
 const about = () => {
   return (
     <div>
-        <Grid container spacing={1} classname="container">
-          <Grid xs={12} sm={6} md={5} className="profile">
-            <h1>Adaobi Okeke <span>(B.Sc, MBA, PSMI)</span></h1>
+       <Nava/>
+    <div classname="container">
+        <Grid container spacing={1} >
+          <Grid xs={12} sm={12} md={12} className="profile">
             <div className="certification">
-            <ul>
-            <li style={{color:'rgb(114, 48, 23)'}}>Professional Scrum Master </li>
-            <li style={{color:'teal'}}>Front End Developer </li>
-            <li style={{color:'rgb(216, 150, 100)'}}>Technical Support Specialist</li>
-            <li style={{color:'rgb(35, 95, 119)p'}}>Business Analyst </li>
-            <li style={{color:'rgb(86, 34, 102)'}}>Financial Expert</li>
-
-            </ul>
+            <p style={{color:'rgb(114, 48, 23)'}}>Professional Scrum Master </p>
+            <p style={{color:'teal'}}>Front End Developer </p>
+            <p style={{color:'rgb(216, 150, 100)'}}>Technical Support Speciapst</p>
+            <p style={{color:'rgb(35, 95, 119)p'}}>Business Analyst </p>
+            <p style={{color:'rgb(86, 34, 102)'}}>Financial Expert</p>
             </div>
           </Grid>
-          <Grid xs={2} sm={2} md={1}></Grid>
-          <Grid xs={12} sm={6} md={6} className="profile-pix">
+          <Grid xs={12} sm={12} md={12} className="profile-pix">
+            <div className="img-div">
             <img src={Ada} alt="ada's-pix" className="ada" />
+            </div>
           </Grid>
         </Grid>
         <Grid container spacing={2}>
           <Grid xs={12} sm={12} md={12} className="about-me">
-            <h1>About me</h1>
-            <h2>
-              I am Adaobi okeke, an adaptable and quality-driven professional with experience in
+            {/* <h1>About me</h1> */}
+            <h1>Adaobi Okeke <span>(B.Sc, MBA, PSMI)</span></h1>
+            <h4>
+              I am an adaptable and quality-driven professional with experience in
               core/ enterprise banking, professional services systems, retail
               banking solutions, and digital transformation projects.
-              </h2>
+              </h4>
             <div className="profession">
               <br />
-              <b>
+              {/* <b> */}
             <ul>
               <li>Over 6 years of experience in supporting teams in Project
               Management, Business Analysis and Front-End Development for bank/
@@ -66,7 +67,9 @@ const about = () => {
               <li> Advanced user of Microsoft Office Suite, as well as specialized
               software and applications, including Click Up and Trello.</li>
               <br/>
+              <b>
               <u>Technical experience and skills include:</u>
+              </b>
               <br />
               <li>Programming Languages: JavaScript</li> 
               <br />
@@ -80,10 +83,11 @@ const about = () => {
               <li>Collaboration Tools: Jira, Click up, Trello, Microsoft
               teams, Microsoft Outlook</li>
               </ul>
-              </b>
+              {/* </b> */}
               </div>
           </Grid>
         </Grid>
+        </div>
         </div>
   )
 }

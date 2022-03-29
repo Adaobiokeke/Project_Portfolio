@@ -1,21 +1,23 @@
+
 .profile{
-    padding:40px;
+    padding:30px;
 }
-.profile h1{
-   color: rgb(216, 150, 100);
-    font-size: 2.5rem;
+.img-div h1{
+    text-align: center;
 }
 .profile-pix{
-    padding-left: 25px;
+    background-size: cover;
+    height:20%
 }
 
+
 .certification{
-    padding-left:50px;
-    line-height:2.8em;
+    line-height:2.5em;
     font-weight:bold;
-    font-size:24px
+    text-align: center;
 }
-.about-me h2{
+
+.about-me h4{
     font-family:Helvetica;
     color:#000
 }
@@ -37,9 +39,13 @@
     padding-right:40px;
     color:#000
 }
-
+.img-div{
+    margin:auto;
+    width:50%;
+    height:100%;
+}
 .ada{
-    /* height:95%; */
-    width:93%;
+      height:30%; 
+    width:100%;
     border-radius:7px;
 }

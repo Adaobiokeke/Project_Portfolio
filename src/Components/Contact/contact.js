@@ -3,9 +3,11 @@ import "./contact.css";
 import Grid from "@material-ui/core/Grid";
 import Phone from "../Assets/contact-img.jpg";
 import Tooltip from "@mui/material/Tooltip";
-
+import Navc from '../Navc/navc'
 const Contact = () => {
   return (
+    <div>
+      <Navc/>
     <div className="contact">
       <Grid container classname="container">
         <Grid xs={12} sm={6} md={6} className="contact-det">
@@ -54,6 +56,7 @@ const Contact = () => {
           <img src={Phone} alt="phone-pix" className="phone" />
         </Grid>
       </Grid>
+    </div>
     </div>
   );
 };

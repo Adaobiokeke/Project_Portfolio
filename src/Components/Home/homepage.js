@@ -2,19 +2,24 @@ import React from "react";
 import "./homepage.css";
 import Grid from "@material-ui/core/Grid";
 import Ada from "../Assets/ADA.jpeg";
-
+import Nav from "../Nav/navbar"
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 const Homepage = () => {
   return (
-    <div>
+    <div class="homepage-body">
       <div className="homepage">
-        <Grid container spacing={1} classname="container">
+        <h1>Adaobi Okeke</h1>
+        <h3>I design and build experiences that makes peoples lives simple.</h3>
+        <Nav/>
+        {/* <Grid container spacing={1} classname="container">
           <Grid xs={12} sm={6} md={5} className="profile">
             <h1>Adaobi Okeke <span>(B.Sc, MBA, PSMI)</span></h1>
             <div className="certification">
             <ul>
             <li style={{color:'rgb(114, 48, 23)'}}>Professional Scrum Master </li>
             <li style={{color:'teal'}}>Front End Developer </li>
-            <li style={{color:'rgb(216, 205, 154)'}}>Technical Support Specialist</li>
+            <li style={{color:'rgb(216, 150, 100)'}}>Technical Support Specialist</li>
             <li style={{color:'rgb(35, 95, 119)p'}}>Business Analyst </li>
             <li style={{color:'rgb(86, 34, 102)'}}>Financial Expert</li>
 
@@ -85,7 +90,15 @@ const Homepage = () => {
               </b>
               </div>
           </Grid>
-        </Grid>
+        </Grid> */}
+      <div className="social-connect">
+        <div className="linked">
+        <a href='https://www.linkedin.com/in/adaobi-okeke-65025258/' rel= "noreferrer" target= "blank">
+        <LinkedInIcon  src= ''style={{color:'blue', width:30}}/>
+        </a>
+        </div>
+        < GitHubIcon style={{color:'white', width:30}}/>
+      </div>
       </div>
     </div>
   );

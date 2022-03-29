@@ -9,13 +9,16 @@ const Navbar = () => {
         <div className="navbar">
             {/* <img src={Logo} alt='logo' className='nav-logo'/> */}
             <Link to="/">
-            <button className= "nav-button">Home</button>
+            {/* <button className= "nav-button">Home.</button> */}
+            </Link>
+            <Link to="/about">
+            <button className= "nav-button">ABOUT.</button>
             </Link>
             <Link to="/projects">
-            <button className= "nav-button">Projects</button>
+            <button className= "nav-button">PROJECTS.</button>
             </Link>
             <Link to="/contact">
-            <button className= "nav-button">Contact me</button>
+            <button className= "nav-button">CONTACT.</button>
             </Link>
         </div>
         </div>

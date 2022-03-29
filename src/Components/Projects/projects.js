@@ -5,8 +5,6 @@ import { Divdatas } from "../Projects/projectDatas";
 import Modal from "react-modal";
 import Tooltip from "@mui/material/Tooltip";
 
-
-
 const Projects = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false),
     [content, setContent] = useState({});
@@ -23,7 +21,7 @@ const Projects = () => {
           overlay: {
             backgroundColor: "grey",
             marginTop: "20px",
-            padding: 50,
+            padding: 10,
             width: "70%",
             height: "85%",
             margin: "auto",
@@ -35,7 +33,7 @@ const Projects = () => {
           },
         }}
       >
-        <h2 style={{ textAlign: "center", marginButton: "30px" }}>
+        <h2 style={{ textAlign: "center", marginBottom: "30px" }}>
           {content.title}
         </h2>
         <img
@@ -44,7 +42,7 @@ const Projects = () => {
           style={{
             width: "50%",
             marginLeft: "28%",
-            border: "10px solid grey",
+            border: "2px solid grey",
             borderRadius: 7,
           }}
         />
@@ -59,9 +57,31 @@ const Projects = () => {
       <Grid container spacing={1}>
         {Divdatas &&
           Divdatas.map((box, index) => (
-            <Grid xs={12} sm={6} md={3} style={{ marginTop: "20px" }}>
+            <Grid xs={12} sm={6} md={6} style={{ marginTop: "20px" }}>
               <div className="card">
-                <h2>{box.title}</h2>
+              <a href={box.link} target="_blank" rel="noreferrer">
+                <Tooltip title="Click me!" arrow>
+                  <img
+                    alt=""
+                    src={box.image}
+                    style={{ width: '100%', height: 300 }}
+                  />
+                </Tooltip>
+                  </a>
+              <div className="btn-div">
+                <button className="card-btn" onClick={() => handleOpen(box)}>
+                  Read me...
+                </button>
+              </div>
+              </div>
+
+
+
+
+
+
+
+              {/* <h2>{box.title}</h2>
                 <div className="link-div">
                   <Tooltip title="Click me!" arrow>
                     <a href={box.link} target="_blank" rel="noreferrer">
@@ -73,8 +93,8 @@ const Projects = () => {
                   <button className="card-btn" onClick={() => handleOpen(box)}>
                     Read me...
                   </button>
-                </div>
-              </div>
+                </div> */}
+              {/* </img> */}
             </Grid>
           ))}
       </Grid>

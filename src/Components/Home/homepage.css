@@ -1,16 +1,63 @@
+/* body{
+     background-color: rgb(45, 45, 66); 
+
+ } */
+/* .homepage-body{ */
+    /* background-color: rgb(13, 13, 29); */
+    /* background-color: rgb(205, 205, 211); */
+/* } */
 .homepage{
-    margin-top:70px
+    /* margin-top:70px; */
+    background-image: url("../Assets/landing10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:3px solid ;
+    height:100vh;
+    width:100vw;
+    padding-top:17%;
+ 
+}
+.homepage h1{
+    color:white;
+    text-align:center;
+    margin: auto;
+    font-size: 4rem;
+    font-family: 'franklin-gothic-urw'
+}
+.homepage h3{
+    color:white;
+    text-align:center;
+}
+.social-connect{
+    border:3px solid #fff;
+    width:100px;
+    height:40px;
+    margin-left:40%;
+    margin-top:10%;
+    display:flex;
+    justify-content:space-between;
+
+
+}
+.linked{
+    border:1px solid;
+    border-radius:50%;
+    background-color: #fff;
+    /* align-items:center; */
+    padding-top:5%
+
 }
 .profile{
     padding:40px;
 }
 .profile h1{
-   color: rgb(255, 178, 42);
+   color: rgb(216, 150, 100);
     font-size: 2.5rem;
 }
 .profile-pix{
     padding-left: 25px;
 }
+
 .certification{
     padding-left:50px;
     line-height:2.8em;
@@ -18,11 +65,13 @@
     font-size:24px
 }
 .about-me h2{
-    font-family:Helvetica
+    font-family:Helvetica;
+    color:#fff
 }
 .about-me{
     margin:10px;
     padding:10%;
+    color:#fff
 }
 .about-me h1{
     text-align:center;

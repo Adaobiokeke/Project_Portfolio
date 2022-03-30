@@ -13,7 +13,7 @@ const about = () => {
             <div className="certification">
             <p style={{color:'rgb(114, 48, 23)'}}>Professional Scrum Master </p>
             <p style={{color:'teal'}}>Front End Developer </p>
-            <p style={{color:'rgb(216, 150, 100)'}}>Technical Support Speciapst</p>
+            <p style={{color:'rgb(216, 150, 100)'}}>Technical Support Specialst</p>
             <p style={{color:'rgb(35, 95, 119)p'}}>Business Analyst </p>
             <p style={{color:'rgb(86, 34, 102)'}}>Financial Expert</p>
             </div>
@@ -35,7 +35,6 @@ const about = () => {
               </h4>
             <div className="profession">
               <br />
-              {/* <b> */}
             <ul>
               <li>Over 6 years of experience in supporting teams in Project
               Management, Business Analysis and Front-End Development for bank/
@@ -83,7 +82,6 @@ const about = () => {
               <li>Collaboration Tools: Jira, Click up, Trello, Microsoft
               teams, Microsoft Outlook</li>
               </ul>
-              {/* </b> */}
               </div>
           </Grid>
         </Grid>

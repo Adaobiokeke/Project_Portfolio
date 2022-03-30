@@ -14,7 +14,6 @@ const Navb = () => {
             <button className= "navb-button">About</button>
             </Link>
             <Link to="/projects">
-            {/* <button className= "navb-button">Projects</button> */}
             </Link>
             <Link to="/contact">
             <button className= "navb-button">Contact</button>

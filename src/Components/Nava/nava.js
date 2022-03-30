@@ -11,7 +11,6 @@ const Nava = () => {
             <button className= "nava-button">Home</button>
             </Link>
             <Link to="/about">
-            {/* <button className= "nav-button">ABOUT</button> */}
             </Link>
             <Link to="/projects">
             <button className= "nava-button">Projects</button>

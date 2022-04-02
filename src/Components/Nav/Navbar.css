@@ -45,3 +45,16 @@
         width:70px
     }
   }
+@media only screen and (max-width: 680px) {
+    .navbar {
+      width:100%
+    }
+    .navbar1 {
+      width:50%;
+      margin:auto
+    }
+    .nav-button{
+        font-size:12px;
+        width:70px
+    }
+  }

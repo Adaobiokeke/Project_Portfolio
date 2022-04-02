@@ -23,27 +23,59 @@
 .homepage h3{
     color:white;
     text-align:center;
+    font-size: 1em;
+
 }
+
 .social-connect{
     width:100px;
     display:flex;
     justify-content:space-between;
     margin:20px auto
-
-
 }
 .linked{
     border-radius:50%;
     background-color: #fff;
     align-items:center;
     padding-top:5%
-
+    
 }
 .linked2{
     border-radius:50%;
     align-items:center;
     padding-top:5%
-
+    
 }
 
+@media only screen and (max-width: 600px) {
+    .social-connect {
+      width:50%;
+      margin:10px auto
+
+    }
+    .linked{
+        border-radius:50%;
+        background-color: #fff;
+        align-items:center;
+        padding-top:5%
+    
+    }
+    .linked2{
+        border-radius:50%;
+        align-items:center;
+        padding-top:5%
+    
+    }
+    .homepage h1  {
+        font-size: 1em;
+    
+        }
+        .homepage{
+            height:90%;
+            width:100%;  
+            background-image: url("../Assets/landing10.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; 
+        }
+}
 

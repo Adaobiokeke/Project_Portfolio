@@ -10,6 +10,10 @@ const Contact = () => {
       <Navc/>
     <div className="contact">
       <Grid container classname="container">
+      <Grid xs={12} sm={6} md={4} className="phone-grid">
+          <img src={Phone} alt="phone-pix" className="phone" />
+        </Grid>
+        {/* <Grid xs={2} sm={2} md={1}></Grid> */}
         <Grid xs={12} sm={6} md={6} className="contact-det">
           <h2>
             I am available for a full time employment and a cup of hot
@@ -51,10 +55,7 @@ const Contact = () => {
           </Tooltip>
           </div>
         </Grid>
-        <Grid xs={2} sm={2} md={1}></Grid>
-        <Grid xs={12} sm={6} md={4} className="">
-          <img src={Phone} alt="phone-pix" className="phone" />
-        </Grid>
+  
       </Grid>
     </div>
     </div>

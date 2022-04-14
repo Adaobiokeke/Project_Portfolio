@@ -5,6 +5,10 @@
 .img-div h1{
     text-align: center;
 }
+.ada:hover{
+    background-image: url("../Assets/Ada2.jpeg");
+;
+}
 .profile-pix{
     background-size: cover;
     height:20%

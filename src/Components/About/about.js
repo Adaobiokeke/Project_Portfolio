@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from "@material-ui/core/Grid";
-import Ada from "../Assets/ADA.jpeg";
+import Ada from "../Assets/ada-trib.jpeg";
 import './about.css'
 import Nava from '../Nava/nava'
 const about = () => {
